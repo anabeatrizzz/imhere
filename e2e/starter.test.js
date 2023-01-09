@@ -9,4 +9,8 @@ describe('Example', () => {
   it('should have welcome screen', async () => {
     await expect(element(by.text('Open up App.tsx to start working on your app!'))).toBeVisible();
   });
+
+  it('should have text', async () => {
+    await expect(element(by.text('Open up App.tsx to start working on your app!'))).toBeVisible();
+  });
 });
