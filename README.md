@@ -5,3 +5,4 @@
 - ativar workflow android:
 
 `gh workflow enable e2e_android.yml`
+
